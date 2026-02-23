@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkride Pal — Flight Evaluation Tool</title>
+    <meta name="description" content="Military-grade helicopter checkride grading tool for Army flight instructors. Real-time scoring, solo requirements tracking, and Apple Watch companion.">
+    <meta name="theme-color" content="#0D120D">
+    <link rel="icon" type="image/png" href="assets/app-icon.png">
+    <link rel="apple-touch-icon" href="assets/app-icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="assets/app-icon.png" alt="Checkride Pal" class="nav-icon">
+                <span>CHECKRIDE PAL</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#features">FEATURES</a></li>
+                <li><a href="#how-it-works">HOW IT WORKS</a></li>
+                <li><a href="#screenshots">SCREENSHOTS</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#download" class="nav-cta">DOWNLOAD</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">CHECKRIDE PAL</h1>
+                <p class="hero-subtitle">FLIGHT EVALUATION TOOL</p>
+                <p class="hero-description">The military-grade helicopter checkride grading tool built for Army flight instructors.</p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">
+                        <svg class="apple-icon" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                        </svg>
+                        Download on the App Store
+                    </a>
+                </div>
+                <div class="hero-badges">
+                    <span class="badge">iOS 17+</span>
+                    <span class="badge">iPad</span>
+                    <span class="badge">Apple Watch</span>
+                    <span class="badge">iCloud Sync</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/Pilot_helicopter.png" alt="Checkride Pal Mascot" class="mascot">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title fade-in">FEATURES</h2>
+            <p class="section-subtitle fade-in">Everything you need for flight evaluations, in one app.</p>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <span class="feature-emoji">📝</span>
+                    <h3>Checkride Cards</h3>
+                    <p>Dual-student grading with real-time weighted scoring across 5 iterations. Track maneuvers, grades, and IP modifiers all in one view.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <span class="feature-emoji">📊</span>
+                    <h3>Quick Stats</h3>
+                    <p>Performance analytics at a glance. Total cards, average scores, pass rates, grade distributions, and UNSAT tracking.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <span class="feature-emoji">🚁</span>
+                    <h3>Solo Requirements</h3>
+                    <p>Track all 12 Army solo endorsement requirements per student with progress bars and completion badges.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <span class="feature-emoji">📚</span>
+                    <h3>Task Manager</h3>
+                    <p>Customizable task library with stage folders (P1, P2, BI, AI + custom). Import and export via CSV.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <span class="feature-emoji">🏷️</span>
+                    <h3>Grade Modifiers</h3>
+                    <p>BQ debrief tags organized by category — Mental, Physical, Emotional, and Custom. Cite modifiers per iteration.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <span class="feature-emoji">⌚</span>
+                    <h3>Apple Watch</h3>
+                    <p>Solo requirements tracker companion on your wrist. Syncs with your iPhone in real time via Watch Connectivity.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <span class="feature-emoji">☁️</span>
+                    <h3>CloudKit Sync</h3>
+                    <p>Seamless iPhone and iPad synchronization via iCloud. Your data follows you across all your Apple devices.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <span class="feature-emoji">📤</span>
+                    <h3>PDF & CSV Export</h3>
+                    <p>Generate professional debrief reports as PDFs. Export and import your task library as CSV files for backup or sharing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title fade-in">HOW IT WORKS</h2>
+            <p class="section-subtitle fade-in">Three simple steps to streamline your checkride evaluations.</p>
+            <div class="steps">
+                <div class="step fade-in">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">📚</div>
+                    <h3>SET UP YOUR TASKS</h3>
+                    <p>Configure your task library with stage folders, weight categories, and grade modifiers. Use built-in Army templates or create your own.</p>
+                </div>
+                <div class="step-connector fade-in"></div>
+                <div class="step fade-in">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">📝</div>
+                    <h3>GRADE THE CHECKRIDE</h3>
+                    <p>Create a checkride card, add maneuvers, and grade across up to 5 iterations. Real-time weighted scoring calculates overall performance instantly.</p>
+                </div>
+                <div class="step-connector fade-in"></div>
+                <div class="step fade-in">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">📤</div>
+                    <h3>EXPORT & DEBRIEF</h3>
+                    <p>Generate a professional PDF debrief report with all grades, modifiers, and notes. Share it instantly or keep it for your records.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="screenshots" id="screenshots">
+        <div class="container">
+            <h2 class="section-title fade-in">SEE IT IN ACTION</h2>
+            <p class="section-subtitle fade-in">A military-themed interface designed for speed and clarity in the field.</p>
+            <div class="screenshots-row">
+                <div class="screenshot-item fade-in">
+                    <img src="assets/Dashboard.png" alt="Checkride Pal Dashboard" class="screenshot-img">
+                    <p class="screenshot-label">DASHBOARD</p>
+                </div>
+                <div class="screenshot-item fade-in">
+                    <img src="assets/Checkride.png" alt="Checkride Card Grading" class="screenshot-img">
+                    <p class="screenshot-label">CHECKRIDE CARD</p>
+                </div>
+                <div class="screenshot-item fade-in">
+                    <img src="assets/SOLO.png" alt="Solo Requirements Tracker" class="screenshot-img">
+                    <p class="screenshot-label">SOLO TRACKER</p>
+                </div>
+                <div class="screenshot-item fade-in">
+                    <img src="assets/stats.png" alt="Quick Stats Analytics" class="screenshot-img">
+                    <p class="screenshot-label">QUICK STATS</p>
+                </div>
+            </div>
+            <div class="screenshots-row screenshots-row--watch">
+                <div class="screenshot-item screenshot-item--watch fade-in">
+                    <img src="assets/SOLO_Watch.PNG" alt="Apple Watch Solo Tracker" class="screenshot-img screenshot-img--watch">
+                    <p class="screenshot-label">WATCH — SOLO TRACKER</p>
+                </div>
+                <div class="screenshot-item screenshot-item--watch fade-in">
+                    <img src="assets/Complications.png" alt="Apple Watch Complications" class="screenshot-img screenshot-img--watch">
+                    <p class="screenshot-label">WATCH — COMPLICATIONS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title fade-in">FREQUENTLY ASKED QUESTIONS</h2>
+            <div class="faq-list">
+                <div class="faq-item fade-in">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What devices does Checkride Pal support?</span>
+                        <span class="faq-chevron">&#9662;</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Checkride Pal runs on iPhone and iPad with iOS 17 or later, plus an Apple Watch companion app for solo requirements tracking. Your data syncs across all devices via iCloud.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How does iCloud sync work?</span>
+                        <span class="faq-chevron">&#9662;</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>All your checkride cards, task library, grade modifiers, and weight categories sync automatically via CloudKit. Just sign into iCloud on your devices and your data stays up to date.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can I customize the task library?</span>
+                        <span class="faq-chevron">&#9662;</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! The app comes with built-in Army stage templates (P1, P2, BI, AI), and you can create custom folders, add your own tasks, rename folder labels, and set weight categories. You can also import/export your task library as CSV files.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Is my data private and secure?</span>
+                        <span class="faq-chevron">&#9662;</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Your data is stored on-device and synced through your personal iCloud account. We do not have access to your evaluation data. No third-party analytics or tracking is used.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What grading system does the app use?</span>
+                        <span class="faq-chevron">&#9662;</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The app uses the standard Army letter grade system: A (90-100), B (80-89), C (70-79), and N/Unsatisfactory (69 and below). Grade weights are fully configurable per card, and weight categories let you adjust scoring multipliers globally.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do I contact support?</span>
+                        <span class="faq-chevron">&#9662;</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>For support, bug reports, or feature requests, email us at <a href="mailto:support@checkridepal.com">support@checkridepal.com</a>. We typically respond within 24 hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download CTA Section -->
+    <section class="download-cta" id="download">
+        <div class="container">
+            <div class="cta-content fade-in">
+                <img src="assets/app-icon.png" alt="Checkride Pal" class="cta-icon">
+                <h2>READY TO STREAMLINE YOUR CHECKRIDES?</h2>
+                <p>Download Checkride Pal and start grading smarter today.</p>
+                <a href="#" class="btn btn-primary btn-large">
+                    <svg class="apple-icon" viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                    </svg>
+                    Download on the App Store
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/app-icon.png" alt="Checkride Pal" class="footer-icon">
+                    <div>
+                        <span class="footer-name">CHECKRIDE PAL</span>
+                        <span class="footer-tagline">Built for Army flight instructors</span>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:support@checkridepal.com">Support</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">App Store</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Checkride Pal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
