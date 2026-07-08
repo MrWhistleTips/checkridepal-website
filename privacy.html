@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Checkride Pal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+    <style>
+        .privacy-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 120px 24px 60px;
+        }
+        .privacy-container h1 {
+            font-family: var(--font-mono);
+            font-size: 2rem;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        .privacy-container .effective-date {
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 40px;
+        }
+        .privacy-container h2 {
+            font-family: var(--font-mono);
+            font-size: 1.1rem;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        .privacy-container p,
+        .privacy-container li {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: var(--text-primary);
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+        .privacy-container ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        .privacy-container li {
+            margin-bottom: 6px;
+        }
+        .privacy-container a {
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+        .privacy-container a:hover {
+            text-decoration: underline;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 24px;
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            color: var(--accent-gold);
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="privacy-container">
+        <a href="index.html" class="back-link">&larr; Back to Checkride Pal</a>
+        <h1>Privacy Policy</h1>
+        <p class="effective-date">Effective Date: July 7, 2025</p>
+
+        <h2>Overview</h2>
+        <p>Checkride Pal is developed by Volantis Software LLC. Your privacy is important to us. This policy explains what data the app accesses, how it is used, and your rights.</p>
+
+        <h2>Data Collection</h2>
+        <p>Checkride Pal does <strong>not</strong> collect, transmit, or share any personal data with Volantis Software LLC or any third parties. The app does not use analytics, advertising, or tracking of any kind.</p>
+
+        <h2>Data Storage</h2>
+        <p>All data you create in the app — checkride cards, grades, task libraries, solo requirements, and settings — is stored locally on your device and optionally synced via Apple's iCloud service. Specifically:</p>
+        <ul>
+            <li><strong>SwiftData / iCloud:</strong> Checkride cards, maneuvers, grades, modifiers, weight categories, solo tracker data, and task library entries are stored using Apple's SwiftData framework. If you have iCloud enabled, this data syncs across your iPhone and iPad via Apple's CloudKit. Volantis Software LLC has no access to your iCloud data.</li>
+            <li><strong>UserDefaults:</strong> App preferences (theme, METAR station, folder labels, profile name) are stored locally on your device using UserDefaults. This data is not synced via iCloud.</li>
+            <li><strong>Profile Photo:</strong> If you set a profile photo, it is stored as a JPEG file in the app's local Documents directory. It is not uploaded or shared.</li>
+        </ul>
+
+        <h2>Network Usage</h2>
+        <p>The app makes network requests only for the following purpose:</p>
+        <ul>
+            <li><strong>Aviation Weather:</strong> METAR observations and TAF forecasts are fetched from the FAA's Aviation Weather API (aviationweather.gov). Only the ICAO station code you enter is sent as a query parameter. No personal information is transmitted.</li>
+        </ul>
+
+        <h2>Apple Watch</h2>
+        <p>The companion Apple Watch app syncs solo requirements data with your iPhone via Apple's Watch Connectivity framework. This communication happens directly between your paired devices. No data is sent to external servers.</p>
+
+        <h2>Third-Party Services</h2>
+        <p>Checkride Pal does not integrate with any third-party analytics, advertising, crash reporting, or data collection services.</p>
+
+        <h2>Children's Privacy</h2>
+        <p>Checkride Pal is not directed at children under the age of 13 and does not knowingly collect any information from children.</p>
+
+        <h2>Your Rights</h2>
+        <p>Since all data is stored locally on your device and in your personal iCloud account, you have full control over your data at all times. You can delete all app data by deleting the app from your device.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this privacy policy from time to time. Changes will be posted on this page with an updated effective date.</p>
+
+        <h2>Contact</h2>
+        <p>If you have questions about this privacy policy, contact us at:<br>
+        <a href="mailto:support@checkridepal.com">support@checkridepal.com</a></p>
+
+        <p style="margin-top: 40px; color: var(--text-secondary); font-size: 0.8rem;">&copy; 2025 Volantis Software LLC. All rights reserved.</p>
+    </div>
+</body>
+</html>
